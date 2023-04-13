@@ -10,7 +10,7 @@ It's a responsive web app that generates over two thousand famous motivational q
 ## Deployment
 
 
-[Quote-Generator Link](https://itsmrdav.github.io/Quote-Generator/)
+[Quote-Generator Link](https://itsmrdav.github.io/Picture-in-Picture/)
 ## Tech Stack
 
 **Client:** HTML, Vanilla CSS, Vanilla JavaScript
