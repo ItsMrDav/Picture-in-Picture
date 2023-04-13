@@ -2,6 +2,7 @@
 
 const videoEl = document.getElementById("video");
 const btn = document.getElementById("btn");
+const btnContainerEl = document.querySelector(".btn-container");
 
 // Prompt to select media stream, pass to video element, then play
 async function selectMediaStream() {
@@ -25,6 +26,7 @@ btn.addEventListener("click", async () => {
   await videoEl.requestPictureInPicture();
   // Reset btn
   btn.disabled = false;
+  btnContainerEl.hidden = true;
 });
 
 // ON LOAD
